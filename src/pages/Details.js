@@ -8,7 +8,7 @@ const Details = ({ route }) => {
             <Text style={styles.heading}>Todo Details</Text>
 
             <View style={styles.item}>
-                <View flex={9} flexDirection="row">
+                <View flex={9} flexDirection="column">
                     <Text style={styles.title}>ID</Text>
                     <Text style={styles.details}>{item.id}</Text>
                     <Text style={styles.title}>Title</Text>
